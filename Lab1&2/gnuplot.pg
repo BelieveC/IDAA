@@ -1,0 +1,9 @@
+#!/usr/bin/gnuplot
+reset
+set terminal png
+set xlabel "K-Value"
+set ylabel "Time"
+set title "Graph of K vs Time | HybridSort | SortedNumbers"
+set grid
+set style data linespoints
+plot "halfsortedSort.dat" using 1:2 
